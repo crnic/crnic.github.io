@@ -1,5 +1,5 @@
 html {
-  font: 16px/1.5 helvetica, sans-serif;
+  font: 16px/1.5 "PT sans";
 }
 
 @media (min-width: 30rem) {
@@ -30,7 +30,7 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: helvetica, sans-serif;
+  font-family: "PT sans";
   margin: 0 0 0.5rem -0.1rem /* align left edge */;
   line-height: 1;
   color: #FF4136 ;
@@ -74,8 +74,8 @@ h3, h4, h5, h6 {
 }
 
 p, ul, ol, dl, table, pre, blockquote {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 ul, ol {
@@ -116,7 +116,7 @@ hr {
 }
 
 .container {
-  max-width: 30rem;
+  max-width: 33rem;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -161,5 +161,4 @@ hr {
 
 .toggle-box:checked + label:before {
   content: "\2212";
-} 
-
+}
