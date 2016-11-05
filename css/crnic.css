@@ -1,12 +1,33 @@
-html {
-  font: 16px/1.5 "LinuxLibertineORegular";
-}
 
 @media (min-width: 30rem) {
   html {
     font-size: 20px;
   }
 }
+
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: local('Noto Sans Regular'), local('NotoSans-Regular'), url("noto-sans/NotoSans-Regular.ttf") format('truetype');
+}
+
+
+
+
+/* Bold */
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'), url("noto-sans/NotoSans-Bold.ttf") format('truetype');
+}
+
+
+html {
+  font: 22px/1.5 "Noto Sans";
+}
+
 
 body {
   margin: 2rem 0 5rem;
@@ -30,7 +51,7 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "LinuxLibertineORegular";
+  font-family: "Noto Sans";
   margin: 0 0 0.5rem -0.1rem /* align left edge */;
   line-height: 1;
   color: #FF4136 ;
