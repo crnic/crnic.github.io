@@ -1,7 +1,7 @@
 
 @media (min-width: 30rem) {
   html {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -11,8 +11,6 @@
   font-weight: 300;
   src: local('Noto Sans Regular'), local('NotoSans-Regular'), url("noto-sans/NotoSans-Regular.ttf") format('truetype');
 }
-
-
 
 
 /* Bold */
